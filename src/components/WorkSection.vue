@@ -10,38 +10,31 @@
 
       <div class="grid-work-template">
           <div class="grid-template">
-              
-                    <div class="grid-item" v-for="workItem in projects" :key="workItem.projectId" :style="'background-image: url('+workItem.projectImg+')'">
-                        
-                        <h2 class="project-naame">
-                            {{workItem.projectName}}
-                        </h2>
-                        <p class="description-project">
-                            {{workItem.projectDescription}}
-                        </p>
-                        <div class="project__links">
-                            <!-- <a :href="workItem.projectRepoLink" class="link-project"> <button> Repo </button> </a> -->
-                            <a :href="workItem.projectExploreLink" target="_blank" class="link-project"> <button> Explore </button> </a>
-                        </div>
-                        
-                    </div>             
+              <div v-for="item in projects" :key="item.id" class="project-overlay">
+                <figure class="c4-izmir c4-border-center c4-gradient-top-left" style="--primary-color: #000046; --secondary-color: #1CB5E0; --border-width: 4px;">
+                    <img :src="item.projectImg" alt="Sample Image">
+                    <figcaption>
+                        <div class="description-section">
+                            <span class="title-project">{{item.projectName}}</span>
+                            <span class="project-info"> {{item.projectDescription}} </span>
+                            <span class="btn-projectExplore">
+                               <a :href="item.projectExploreLink" target="_blank"> Explore  </a> 
+                            </span>
+                        </div>         
+                    </figcaption>
+                    
+                </figure>
+              </div>       
           </div>
-
       </div>
-
   </div>
-
 </div>
-
-  
-
 </template>
 
 
 <script>
 import SequentialEntrance from 'vue-sequential-entrance'
 import 'vue-sequential-entrance/vue-sequential-entrance.css'
-
 
 export default {
     data(){
@@ -84,6 +77,33 @@ export default {
 </script>
 
 <style>
+figure{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.8;
+}
+
+.description-section{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    margin-top:15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.description-section, .project-info{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    line-height: 1.3em;
+}
+.btn-projectExplore{
+    background-color: rgba(16, 31, 129, 0.8);
+    width:5rem;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
+.btn-projectExplore a{
+    color: rgb(255, 255, 255);
+}
+
     .work-page{
         width:100%;
         height:100%;
@@ -92,111 +112,55 @@ export default {
         align-items: center;
         justify-content: center;
     }
+
     .grid-work-template{
-        padding:15px 0px
+        padding:15px 0px;
+        width: 85vw;
+        min-height: 100px;
     }
 
     .grid-template{
         display:grid;
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         grid-row-gap:    15px;
         grid-column-gap: 15px;
-        width:85vw;
-        grid-auto-rows: 280px;
+        align-self: center; 
     }
 
-    .grid-item{
-        display:flex;
-        flex-direction: column;
-        background-color:pink;
-        justify-content:center;
-        align-items:center;
-        text-align:center;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        font-family: 'Montserrat', sans-serif;
-        background-color:rgba(255, 255, 255, 0.601);
-        opacity:0.85;
-        background-size: 100%;
-        object-fit: cover;
-    }
-
-/* background-position: center;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-repeat: no-repeat; 
-        object-fit: contain;
-        background-size: cover;
-        .fill {object-fit: fill;}
-.contain {object-fit: contain;}
-.cover {object-fit: cover;}
-.scale-down {object-fit: scale-down;}
-.none {object-fit: none;}*/
-
-    .grid-item h2{
-        font-size: 1.8rem;
-        opacity: 0.8;
-        margin-top:0px;   
-    }
-
-    .grid-item p{
-        padding: 5px 0px;
-        width: 90%;
-        opacity: 0.9;
-        font-size: 0.9rem;
-        color: rgba(0, 0, 0, 1);
-        margin-top:-25px;
-        font-weight: 400;
-        
-    }
-
-    .grid-item:hover{
-        cursor: pointer;
-    }
-
-
-    .project__links{
-        margin-top:15px;
-    }
-    .project__links button{
-        color :white;
-        background-color:black;
-        opacity: 0.8;
-    }
-    .project__links button:hover{
-        opacity: 1;
-    }
- 
     h2{
         font-size: 3.0rem;
         font-family: 'Montserrat', sans-serif;
         margin-top: 100px;
         margin-bottom: 50px;
     }
-   
-    @media screen and (max-width:480px) {
-        .grid-item h2{
-        padding-top: 25px;
-        font-size: 1.4rem;
-        opacity: 0.8;
-        margin-top: 0px;
+    .title-project{
+        display: block;
+        font-size: 1.2rem;
+    }
+
+    @media screen and (max-width:1525px){
+        .project-overlay:hover h3 {
+            font-size: 8px;
         }
-        .grid-item p{
-        padding: 0px 0px;
-        width: 90%;
-        opacity: 1;
-        font-size: 0.7rem;
-        color: rgba(0, 0, 0, 1);
-        margin-top: -50px;
+        .project-overlay:hover p{
+            font-size: 12px;
         }
-        .grid-item{
-            width: 90%;
+
+        .project-overlay:hover, .btn-section{
+            font-size: 16px;
+        }
+        .title-project{
+            font-size: 1.0rem;
+        }
+    }
+    @media screen and (max-width:480px){
+        .description-section{
+            font-size:0.6rem
         }
     }
 
-
 </style>
+
 
 
 

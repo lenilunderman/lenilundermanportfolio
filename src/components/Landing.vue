@@ -29,8 +29,8 @@ export default {
             greeting:"Hi, I'm Leni",
             t1:'I build digital',
             t2:'products, websites,',
-            t3:'and experience',
-            headingInfo:"I'm a coder and developer by heart. I love to learn about new technologies and frameworks. Vue is my passion but, React still holds a special place in my heart. I am resourceful, self-driven, and love to create beautiful designs and applications.",
+            t3:'and experiences',
+            headingInfo:"I'm a coder and enthusiastic developer. I love to learn about new technologies and frameworks. Vue is my specialty but I have significant expertise in React as well. I am resourceful, self-motivated, and love to create beautiful designs and applications. I am fluent in Portuguese.",
             email:'mailto:lenilunderman@gmail.com',
             resume:'https://drive.google.com/file/d/1AJPs5c5uqP4-OXEfWkmLrNCGVSrf1SXM/view'
         }

@@ -56,6 +56,7 @@ export default {
     .heading-aboutme{
         text-align: center;
     }
+    
     .aboutme-section{
         display:flex;
         width: 85vw;
@@ -98,6 +99,10 @@ export default {
     .aboutmePblock{
         margin-top: 80px;
         z-index: 10;
+    }
+    .heading-aboutme {
+        
+        padding: 25px 0px;
     }
 
     /* Media queries sections for different devices */

@@ -3,12 +3,13 @@
     <Navigation/>
     <Landing/>
     <WorkSection/>
-    <AboutMe/>
+    
+    <!--<AboutMe/>
     <SocialSkills/>
     <WebProjects/>
     <ContactMeBar/>
     <UiUxProjects/>
-    <Footer/>
+    <Footer/> -->
 
 </template>
 
@@ -23,6 +24,8 @@ import WebProjects from './components/WebProjects.vue'
 import ContactMeBar from './components/ContactMeBar.vue'
 import UiUxProjects from './components/UiUxProjects.vue'
 import Footer from './components/Footer.vue'
+
+// site done
 
 
 export default {
