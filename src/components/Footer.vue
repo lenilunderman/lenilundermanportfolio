@@ -24,7 +24,7 @@ export default {
     data(){
         return{
             pageTitle:'| Contact Me |',
-            pageHeading: "Let's create your next experience together.",
+            pageHeading: "Let's create your next digital product together.",
             socialLinks:[
                 {id:1, skillClass:'fa-brands fa-linkedin-in fa-2xl', iconName:'linkedin', skillWebsite:'https://www.linkedin.com/in/lenilunderman/'},
                 {id:2, skillClass:'fa-brands fa-github fa-2xl', iconName:'github', skillWebsite:'https://github.com/lenilunderman'},

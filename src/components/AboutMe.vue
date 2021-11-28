@@ -31,9 +31,9 @@ export default {
         return{
             sectionName:'About Me',
             brandTag:'Web Developer',
-            p1:'Hi there! I am a software engineer from the Boston area, and I love to create clean and modern websites and applications. I believe products should bring users a great experience, ease of use, and efficiency.',
+            p1:'Hi there! I am a software engineer from the Boston area, and I love to create clean and modern websites and applications. I believe digital products should be intuitive, efficient, and offer users a satisfying experience.',
             p2:'I am highly motivated, self-driven, and resourceful with experience in Javascript, React, Vue, Python, Django, and other technologies.',
-            p3:'My goal is to innovate one project at a time.',
+            p3:'My goal is to be innovative with every product I take on.',
             imgLink:'https://i.ibb.co/fYnm6XM/leni-final.png',
         }
     }
