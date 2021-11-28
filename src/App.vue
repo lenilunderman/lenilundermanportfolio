@@ -3,13 +3,12 @@
     <Navigation/>
     <Landing/>
     <WorkSection/>
-    
-    <!--<AboutMe/>
+    <AboutMe/>
     <SocialSkills/>
     <WebProjects/>
     <ContactMeBar/>
     <UiUxProjects/>
-    <Footer/> -->
+    <Footer/>
 
 </template>
 

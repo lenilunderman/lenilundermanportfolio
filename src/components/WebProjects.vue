@@ -1,28 +1,27 @@
 <template>
 <div data-aos="fade-up" data-aos-easing="ease" data-aos-duration="500">
     <div class="other-projects">
-        <div data-aos="fade-left" data-aos-easing="ease" data-aos-duration="1000">
+<div data-aos="fade-down" data-aos-easing="ease" data-aos-duration="1000">
             <div class="other-projects-bgtext">
                 <h1> {{titleBigText}} </h1>
             </div>
-        </div>
-
+</div>
         <div class="other-projects-wrapper">
-            <div v-for="item in projects" :key="item.id" class="project-overlay">
-                <figure class="c4-izmir c4-border-center c4-gradient-top-left c4-image-zoom-out" style="--primary-color: #22a87b; --secondary-color: #1CB5E0; --border-width: 2.5px; --overlay-opacity: 0.1;">
-            <img :src="item.bgImg" :alt="item.projectName">
-            <figcaption>
-                <h3> {{item.projectName}}</h3>
-                <p> {{item.projectDesc}} </p>
-                    <span class="btn-section" v-if="item.repoL">
-                        <button> <a :href="item.repoL" target="_blank"> Repo </a>  </button>
-                        <button> <a :href="item.urlSite" target="_blank"> Explore </a> </button>
-                    </span>
-                        <span class="btn-section" v-else>
-                        <button><a href="item.urlSite" target="_blank"> Explore </a></button>
-                    </span>
-            </figcaption>
-            </figure>
+            <div v-for="item in projects" :key="item.id" class="project-overlay" id="projItem">
+                    <figure class="c4-izmir c4-border-center c4-gradient-top-left c4-image-zoom-out" style="--primary-color: #22a87b; --secondary-color: #1CB5E0; --border-width: 2.5px; --overlay-opacity: 0.1;">
+                <img :src="item.bgImg" :alt="item.projectName">
+                <figcaption>
+                    <h3> {{item.projectName}}</h3>
+                    <p> {{item.projectDesc}} </p>
+                        <span class="btn-section" v-if="item.repoL">
+                            <button> <a :href="item.repoL" target="_blank"> Repo </a>  </button>
+                            <button> <a :href="item.urlSite" target="_blank"> Explore </a> </button>
+                        </span>
+                            <span class="btn-section" v-else>
+                            <button><a href="item.urlSite" target="_blank"> Explore </a></button>
+                        </span>
+                </figcaption>
+                </figure>
             </div>
         </div>
     </div> 
@@ -110,8 +109,9 @@ export default {
         font-size:7.4rem;
         user-select: none;
         text-align: right;
-        color: rgba(197, 194, 194, 0.396);
+        color: rgba(128, 128, 128, 0.24);
         z-index: 10;
+        margin-bottom: 10px;
         
     }
     .other-projects-wrapper{
@@ -180,7 +180,9 @@ export default {
     }
 
     @media screen and (max-width:1448px){
-    
+        #projItem:hover h3{
+            font-size: 1.1rem;
+        }
     }
 
     @media screen and (max-width:1350px){

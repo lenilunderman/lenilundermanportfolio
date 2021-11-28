@@ -1,7 +1,7 @@
 <template>
 <div data-aos="fade-up" data-aos-easing="ease" data-aos-duration="500">
     <div class="otherprojectsUi">
-        <div data-aos="fade-right" data-aos-easing="ease" data-aos-duration="1000">
+        <div data-aos="fade-down" data-aos-easing="ease" data-aos-duration="1000">
             <div class="otherprojectsUi-bgtext">
                 <h1> {{titleBigText}} </h1>
             </div>
@@ -50,7 +50,7 @@ export default {
                 {
                     id:2, 
                     projectName: 'NeighborGoods', 
-                    projectDesc:'A mockup for a full-stack website done in teams.  In this project, it is possible to see all the wireframes and prototypes from start to finish, in hi-fidelity.',
+                    projectDesc:'A mockup for a full-stack website done in teams.  In this project, it is possible to see all the wireframes and prototypes from start to finish.',
                     display:false, 
                     bgImg: 'https://cdn.dribbble.com/users/5334371/screenshots/16921791/media/bc12ada73bfd16702562d0bf4ac771d7.png?compress=1&resize=800x600', 
                     repoL:null, 
@@ -107,7 +107,7 @@ export default {
         font-size:7.4rem;
         user-select: none;
         text-align: left;
-        color: rgba(197, 194, 194, 0.396);
+        color: rgba(128, 128, 128, 0.24);
         z-index: 10;
         
     }

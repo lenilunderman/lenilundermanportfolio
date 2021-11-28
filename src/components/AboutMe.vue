@@ -1,12 +1,4 @@
 <template>
-<!-- <figure class="c4-izmir">
-  <img src="https://source.unsplash.com/FaPxZ88yZrw/400x300" alt="Sample Image">
-  <figcaption>
-      <h3>
-        Some sample text
-      </h3>
-    </figcaption>
-</figure> -->
 
     <h2 class="heading-aboutme" id="aboutme"> | {{sectionName}} | </h2> 
     
@@ -149,7 +141,7 @@ export default {
         }
         .aboutmeImg img{
             display:block;
-            width: 320px;
+            width: 310px;
             height: 280px;
             transform: scaleX(1);
         }

@@ -5,7 +5,7 @@
           <h1> {{pageTitle}} </h1>
           <h3> {{pageHeading}} </h3>
           
-          <address><a href="mailto:lenilunderman@gmail.com"> lenilunderman@gmail.com </a> </address>
+          <address><a href="https://us1.list-manage.com/contact-form?u=9e3da0d8a733d15ee81ab58b6&form_id=d3df97378ef48177327f8dd2e00ed707" target="_blank"> lenilunderman@gmail.com </a> </address>
           <div class="footerNetworkLinks">
             <span v-for="item in socialLinks" :key="item.iconName">
                 <a :href="item.skillWebsite" target="_blank"><i :class="item.skillClass"></i></a>
@@ -117,9 +117,5 @@ export default {
         padding: 25px 0px 50px 0px;
         }
     }
-
-
-  
-
 
 </style>
