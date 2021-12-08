@@ -45,7 +45,7 @@ export default {
                     projectName:'Center Centre - UIE', 
                     projectDescription:"Web Developer | Email Specialist. I helped to develop email marketing for 30.000 UX designers and worked closely with Jared Spool. I've developed new features for the company website and helped with the hiring process of the latest web developer intern.", 
                     projectRepoLink:'#', 
-                    projectExploreLink:'https://www.uie.com/', 
+                    projectExploreLink:'https://medium.com/@lennylunderman/what-i-learned-during-an-internship-5f5335c55e6d', 
                     projectDisplay:false, 
                     // projectImg:"https://cdn.dribbble.com/users/5358639/screenshots/15260952/media/043b78563d0e928c0fd871403253698b.png?compress=1&resize=1200x900" 
                     projectImg:"https://cdn.dribbble.com/users/988698/screenshots/3423782/develop_isometric_perspective.jpg?compress=1&resize=800x600",
