@@ -18,7 +18,7 @@
                             <button> <a :href="item.urlSite" target="_blank"> Explore </a> </button>
                         </span>
                             <span class="btn-section" v-else>
-                            <button><a href="item.urlSite" target="_blank"> Explore </a></button>
+                            <button><a :href="item.urlSite" target="_blank"> Explore </a></button>
                         </span>
                 </figcaption>
                 </figure>
