@@ -18,7 +18,8 @@ export default {
             socialLinks:[
                 {id:1, skillClass:'fa-brands fa-linkedin-in fa-2xl', iconName:'linkedin', skillWebsite:'https://www.linkedin.com/in/lenilunderman/'},
                 {id:2, skillClass:'fa-brands fa-github fa-2xl', iconName:'github', skillWebsite:'https://github.com/lenilunderman'},
-                {id:3, skillClass:'fa-brands fa-twitter fa-2xl', iconName:'twitter', skillWebsite:'https://twitter.com/lenny_lunderman'}
+                {id:3, skillClass:'fa-brands fa-twitter fa-2xl', iconName:'twitter', skillWebsite:'https://twitter.com/lenny_lunderman'},
+                {id:4, skillClass:'fa-brands fa-m fa-2xl', iconName:'medium', skillWebsite:'https://medium.com/@lenilunderman'}
             ]
         }
     }

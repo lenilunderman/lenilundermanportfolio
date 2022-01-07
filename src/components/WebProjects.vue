@@ -54,24 +54,24 @@ export default {
                     repoL:null, 
                     urlSite:'https://murphywired.com'
                 },
-                {
+                {   
                     id:3, 
+                    projectName: 'Audacious UX Goals', 
+                    projectDesc:"Audacious UX Goals is a website built to sell one of Center Centre UX leaders' programs. The intensive consists of giving UX leadership a voice in the organization.",
+                    display:false, 
+                    bgImg: 'https://cdn.dribbble.com/users/5334371/screenshots/17219607/media/8bba026d14d3e407828b8128905f97d5.png',
+                    // repoL:'https://github.com/lenilunderman/ToRoMusicPlayer', 
+                    urlSite:'https://goals.centercentre.com'
+                },  
+                {
+                    id:4, 
                     projectName: 'Social Media Trends', 
                     projectDesc:'A simple application using Javascript ES6 and Bulma CSS Framework. This application demonstrates how to use array functions and how to integrate a licensed chart library.',
                     display:false, 
                     bgImg: 'https://cdn.dribbble.com/users/5334371/screenshots/16822454/media/8ebf9f4fe9dc57dd7e4a7d9ecec23aeb.png', 
                     repoL:'https://github.com/lenilunderman/social_media_trends', 
                     urlSite:'https://lenilunderman.github.io/social_media_trends/'
-                },
-                {   
-                    id:4, 
-                    projectName: 'ToRo Player', 
-                    projectDesc:'A fun project created using HTML5, SCSS, vanilla javascript, and the audio web API, a clean way to keep all your music in one place, and list it whenever you like it.',
-                    display:false, 
-                    bgImg: 'https://cdn.dribbble.com/users/5334371/screenshots/16822552/media/5aa5e12d789d8b560aedad2668aadabb.png',
-                    repoL:'https://github.com/lenilunderman/ToRoMusicPlayer', 
-                    urlSite:'https://lenilunderman.github.io/ToRoMusicPlayer/'
-                },             
+                },          
             ]
         }
     },

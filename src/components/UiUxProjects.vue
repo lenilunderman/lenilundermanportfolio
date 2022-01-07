@@ -43,7 +43,7 @@ export default {
                     projectName: 'Cabaret Fest 2021', 
                     projectDesc:'A mockup website for cabaret performers in greater Boston and New England made in Figma.',
                     display:false, 
-                    bgImg: 'https://cdn.dribbble.com/users/5334371/screenshots/16921563/media/55d83a0197e3232d1b03d66490f7ec10.png?compress=1&resize=800x600',
+                    bgImg: 'https://cdn.dribbble.com/users/5334371/screenshots/16921563/media/55d83a0197e3232d1b03d66490f7ec10.png',
                     repoL:null, 
                     urlSite:'https://www.figma.com/file/Qep5i2S1w3oK4v2vD5Mtqq/Website---Providencetowncabaretfest.com?node-id=0%3A1'
                 },
@@ -52,7 +52,7 @@ export default {
                     projectName: 'NeighborGoods', 
                     projectDesc:'A mockup for a full-stack website done in teams.  In this project, it is possible to see all the wireframes and prototypes from start to finish.',
                     display:false, 
-                    bgImg: 'https://cdn.dribbble.com/users/5334371/screenshots/16921791/media/bc12ada73bfd16702562d0bf4ac771d7.png?compress=1&resize=800x600', 
+                    bgImg: 'https://cdn.dribbble.com/users/5334371/screenshots/16921791/media/bc12ada73bfd16702562d0bf4ac771d7.png', 
                     repoL:null, 
                     urlSite:'https://www.figma.com/file/vgGZ6RwBzmplh2vHXgtdee/Small-Business-Hackathon?node-id=127%3A29'
                 },
@@ -70,7 +70,7 @@ export default {
                     projectName: 'Travel Lite', 
                     projectDesc:'A mockup website for a company with a passion for hot-air balloons for exploring the world.',
                     display:false, 
-                    bgImg: 'https://cdn.dribbble.com/users/5334371/screenshots/16921615/media/6a12d3707ee687af4df180ed3b34cbb5.png?compress=1&resize=800x600', 
+                    bgImg: 'https://cdn.dribbble.com/users/5334371/screenshots/17219589/media/6a2c75a830a65802f9564b32ea1d83a7.png', 
                     repoL:null, 
                     urlSite:'https://www.figma.com/file/e6DENgfp4KN3G8xOAihw4n/Website---Ballons'
                 },   
@@ -125,7 +125,8 @@ export default {
     }
     .otherprojectsUi-wrapper div{
         min-height: 280px;
-        background-color:rgb(170 182 201 / 35%);
+        /* background-color:rgb(170 182 201 / 35%); */
+        
         transition: all 2.5 ease-in-out;
         opacity:.85;
         background-position: center;

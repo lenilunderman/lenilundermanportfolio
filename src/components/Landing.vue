@@ -32,7 +32,7 @@ export default {
             t3:'and experiences',
             headingInfo:"I'm a coder and enthusiastic developer. I love to learn about new technologies and frameworks. Vue is my specialty but I have significant expertise in React as well. I am resourceful, self-motivated, and love to create beautiful designs and applications. I am fluent in Portuguese.",
             email:'https://us1.list-manage.com/contact-form?u=9e3da0d8a733d15ee81ab58b6&form_id=d3df97378ef48177327f8dd2e00ed707',
-            resume:'https://drive.google.com/file/d/1AJPs5c5uqP4-OXEfWkmLrNCGVSrf1SXM/view'
+            resume:'https://drive.google.com/file/d/1TzOtACX06jzbdv4R92z3DH3Bgbi1mc3T/view'
         }
     }
 }
